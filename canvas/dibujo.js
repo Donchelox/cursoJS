@@ -1,3 +1,4 @@
+//Obteniendo elementos desde html
 var texto = document.getElementById('text-lineas');
 var boton = document.getElementById('botoncito');
 
