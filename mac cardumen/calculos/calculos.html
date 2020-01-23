@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calcular</title>
+</head>
+<body>
+    <h1>Calcular IMC</h1>
+    
+    <script>
+        let peso = prompt('Ingresa tu peso');
+        let altura = prompt('Ingresa tu altura');
+        let estatura = altura / 100;
+        let calculo = parseInt(peso / ( estatura * estatura ));
+        let resultado = calculo.toFixed(1);
+        document.write("IMC = " + resultado);
+
+        if(resultado > 30 && resultado < 33){
+            document.write(' - Estai gordito, baja de peso.');
+        }else{
+            document.write(' - Estai maomeno');
+        }
+    </script>
+</body>
+</html>
