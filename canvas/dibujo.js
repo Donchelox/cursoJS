@@ -1,7 +1,7 @@
 //Obteniendo elementos desde html
 var texto = document.getElementById('text-lineas');
 var boton = document.getElementById('botoncito');
-
+//Escuchando evento clic de botoncito para llevarlo a dibujoPorClic
 boton.addEventListener('click', dibujoPorClic)
 
 var d =  document.getElementById('dibujito');
